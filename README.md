@@ -1,19 +1,37 @@
-# vps-support-ticket-clustering
-Clustering and topic modeling of VPS support tickets using LDA and BERTopic (5600+ conversations, multilingual))
+# VPS Support Ticket Clustering
 
-NLP-based analysis of customer support conversations from a VPS hosting provider using unsupervised machine learning techniques.
+NLP-based clustering and topic modeling of VPS hosting support tickets using LDA and BERTopic. Analysis of 2700+ multilingual customer support conversations.
 
 ## Overview
-This project analyzes 5600+ support chat tickets from European VPS hosting to identify common customer issues and topics through clustering and topic modeling.
 
-## Methods
-- **Topic Modeling**: Latent Dirichlet Allocation (LDA) and BERTopic
-- **Clustering**: K-means with TF-IDF vectorization
-- **Language**: multilingual text data
-- **Key Libraries**: scikit-learn, gensim, BERTopic, pandas
+This project applies unsupervised machine learning to customer support chat logs from a VPS hosting provider to identify recurring issues and improve service efficiency.
 
-## Results
-Identified 15 main topics including billing, trial period requests, server access, DDoS protection, and technical errors.
+**Goal:** Reduce repetitive ticket workload and improve response times by identifying common support topics through text analytics.
+
+## Methodology
+
+- **Data:** 5000+ anonymized chat logs and email tickets (2021-2025)
+- **Preprocessing:** Text cleaning, language detection, lemmatization, anonymization
+- **Models:** Latent Dirichlet Allocation (LDA) and BERTopic clustering
+- **Validation:** Coherence score 0.63, manual review by support team
+
+## Key Findings
+
+Identified 15 main topics including:
+- Billing & payments (14%)
+- Trial period requests (10%)
+- Server access issues (12%)
+- Technical configuration (18%)
+- Control panel errors (8%)
+
+
+## Technologies
+
+Python • scikit-learn • gensim • BERTopic • pandas • matplotlib • pyLDAvis
+
+## Note on Data
+
+Due to GDPR compliance, the original dataset cannot be shared. The notebook includes all outputs (visualizations, metrics, results) to demonstrate the methodology.
 
 ## Documentation
 
@@ -23,3 +41,5 @@ Comprehensive project documentation is available in the `/docs` folder:
 - **Solution Design** – data science approach and methodology
 - **Data Evaluation** – data sources, quality assessment, and preprocessing
 - **Ethics Assessment** – privacy, GDPR compliance, and responsible AI practices
+
+
