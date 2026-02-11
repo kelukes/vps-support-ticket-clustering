@@ -15,6 +15,11 @@ This project analyzes 5600+ support chat tickets from European VPS hosting to id
 ## Results
 Identified 15 main topics including billing, trial period requests, server access, DDoS protection, and technical errors.
 
-## Files
-- `[]` - Main analysis notebook
-- (add other files later)
+## Documentation
+
+Comprehensive project documentation is available in the `/docs` folder:
+
+- **Project Overview** – business context, problem statement, and KPIs
+- **Solution Design** – data science approach and methodology
+- **Data Evaluation** – data sources, quality assessment, and preprocessing
+- **Ethics Assessment** – privacy, GDPR compliance, and responsible AI practices
